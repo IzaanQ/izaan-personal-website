@@ -11,6 +11,7 @@ body{
   height: 10%;
   width: 100%;
   background-color: #FFF;
+  display: flex;
 }
 
 
