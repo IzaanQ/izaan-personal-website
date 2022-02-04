@@ -12,6 +12,7 @@ body{
   width: 100%;
   background-color: #FFF;
   display: flex;
+  justify-content: space-between;
 }
 
 
