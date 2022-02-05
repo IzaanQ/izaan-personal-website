@@ -14,7 +14,7 @@ body{
   display: flex;
   justify-content: space-between;
   display: block;
-  
+  font-size: 10px;
 }
 
 
