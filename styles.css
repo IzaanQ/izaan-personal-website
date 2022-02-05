@@ -13,6 +13,9 @@ body{
   background-color: #FFF;
   display: flex;
   justify-content: space-between;
+  display: block;
+  
 }
+
 
 
