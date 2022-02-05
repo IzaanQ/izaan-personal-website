@@ -1,4 +1,4 @@
-js tings
+//js tings
 
 function hello(){
   console.log('world');
