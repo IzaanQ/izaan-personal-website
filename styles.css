@@ -9,7 +9,7 @@ body{
 
 .nav-bar{
   height: 10%;
-  width: 100%;
+  width: auto;
   background-color: #FFF;
   display: flex;
   justify-content: space-between;
@@ -17,6 +17,8 @@ body{
   font-size: 10px;
   font-weight: bold;
 }
+
+
 
 
 
