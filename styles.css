@@ -1,1 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
+.black {
+    background-color: #3C3C3C;
+    height: 50vh;
+    width: auto;
+}
