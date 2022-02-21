@@ -7,10 +7,10 @@
 
 .black {
     background-color: #3C3C3C;
-    height: 50vh;
+    height: 40vh;
     width: auto;
     text-align: center;
-    line-height: 850px;
+    line-height: 650px;
 }
 
 .white{
@@ -37,4 +37,66 @@ section {
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     height: 100vh;
+}
+
+.nav{
+    background: #3C3C3C;
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    width: auto;
+    padding: 1%;
+    line-height: 60px;
+}
+
+.nav li{
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+    
+}
+
+.name{
+    margin-left: 10px;
+    font-size: 2.5vh;
+    color: blanchedalmond;
+}
+
+.nav li a:link {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 2.5vh;
+}
+
+.nav li a:hover{
+    color: blanchedalmond;
+}
+
+.ting {
+    text-align: center;
+}
+
+.ls {
+    background-color: #807080;
+}
+
+.rs {
+    background-color: #3C3C3C;
+    margin-top: 8%;
+    width: 40%;
+    height: 60vh;
+    margin-left: 40px;
+}
+
+.ls {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 8%;
+    width: 40%;
+    height: 60vh;
+}
+
+.rs {
+    display: inline-block;
+    vertical-align: middle;
 }
