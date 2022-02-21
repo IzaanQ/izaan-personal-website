@@ -8,4 +8,21 @@
     background-color: #3C3C3C;
     height: 50vh;
     width: auto;
+    text-align: center;
+    line-height: 850px;
+}
+
+.white{
+    text-align: center;
+    line-height: 250px;
+}
+
+.izaan{
+    font-size: 200px;
+    color: #FFF;
+}
+
+.qaiser{
+    font-size: 200px;
+    color:#3C3C3C
 }
