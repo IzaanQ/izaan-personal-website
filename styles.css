@@ -188,8 +188,14 @@ section {
     font-size: 3vh;
 }
 
-.project_words{
+.project_words a{
+    margin-top: 12px;
+    padding: 0;
     text-decoration: none;
+}
+.project_words a:hover{
+    text-decoration: none;
+    color: blanchedalmond;
 }
 
 .three{
@@ -211,6 +217,6 @@ section {
     color: #fff;
 }
 
-.more_projects a:visited{
-    color: #fff;
+.more_projects {
+    font-size: 3vh;
 }
