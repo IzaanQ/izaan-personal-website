@@ -145,3 +145,72 @@ section {
   height: auto;
   border-radius: 20px;
 }
+
+.project_1 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.project_2 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.project_3 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.project_holder::after{
+    content: "";
+    clear:both;
+    display: table;
+}
+
+.project_ting{
+    background: #3c3c3c;
+    text-align: center;
+    width: 1371px;
+    height: 710px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.project_words{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3vh;
+    padding-right: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 3vh;
+    color: #fff;
+    font-size: 3vh;
+}
+
+.project_words{
+    text-decoration: none;
+}
+
+.three{
+    padding: 10vh;
+}
+
+.AVNS {
+    border-radius: 20px;
+}
+.AVNC {
+    border-radius: 20px;
+}
+.T {
+    border-radius: 20px;
+}
+
+.more_projects {
+    text-decoration: none;
+    color: #fff;
+}
+
+.more_projects a:visited{
+    color: #fff;
+}
