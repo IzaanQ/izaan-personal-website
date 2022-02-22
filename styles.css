@@ -220,3 +220,70 @@ section {
 .more_projects {
     font-size: 3vh;
 }
+
+@media only screen and (max-width: 1439px) {
+  .black{
+    line-height: 45vh;
+  }
+
+  .github, .linkedin, .devpost, .gmail{
+    width: 85px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .ls-name{
+    margin-bottom: 5px;
+  }
+
+  .ls-titles {
+    margin-top: 25px;
+  }
+
+  .name{
+    font-size: 4vh;
+  }
+
+  .nav li a:link {
+    font-size: 3.5vh;
+  }
+
+  .three, .four, .five {
+    padding: 0.15%;
+    padding-bottom: 7vh;
+  }
+
+  .rs, .ls{
+    margin-top: 70px;
+
+  }
+
+  .project_ting{
+    margin-top: 5vh;
+    height: 77vh;
+    width: 150vh;
+
+  }
+
+  .AVNS, .AVNC, .T{
+    height: 60vh;
+    width: 45vh;
+  }
+  .more_projects{
+    margin-right: 5vh;
+    font-size: 4vh;
+    margin-bottom: 10px;
+    margin-top: 0px;
+  }
+
+  .project_words{
+    margin-left: 2vh;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+
+  .js_projects{
+    margin-top: 12px;
+  }
+
+}
