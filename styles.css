@@ -286,8 +286,5 @@ section {
     margin-top: 12px;
   }
 
-  .AVNS:hover, .AVNC:hover, .T:hover{
-    transform: scale(1.015);
-  }
 
 }
