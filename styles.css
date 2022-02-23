@@ -200,6 +200,7 @@ section {
 
 .three, .four, .five, .six{
     padding: 10vh;
+    overflow: hidden; /* Hide scrollbars */
 }
 
 .AVNS {
@@ -286,5 +287,12 @@ section {
     margin-top: 12px;
   }
 
+  body {
+    overflow: hidden; /* Hide scrollbars */
+  }
 
+}
+
+body {
+  overflow: hidden; /* Hide scrollbars */
 }
