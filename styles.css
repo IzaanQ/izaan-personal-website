@@ -175,13 +175,14 @@ section {
     height: 75vh;
     margin: auto;
     border-radius: 20px;
+    padding-top: 1vh;
 }
 
 .project_words{
     display: flex;
     justify-content: space-between;
-    padding-left: 3vh;
-    padding-right: 2vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
     padding-top: 1vh;
     padding-bottom: 3vh;
     color: #fff;
