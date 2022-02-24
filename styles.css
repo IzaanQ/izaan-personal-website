@@ -171,8 +171,8 @@ section {
 .project_ting{
     background: #3c3c3c;
     text-align: center;
-    width: 1371px;
-    height: 710px;
+    width: 150vh;
+    height: 75vh;
     margin: auto;
     border-radius: 20px;
 }
@@ -203,15 +203,10 @@ section {
     overflow: hidden; /* Hide scrollbars */
 }
 
-.AVNS {
+.AVNS, .AVNC, .T {
     border-radius: 20px;
-}
-.AVNC {
-    border-radius: 20px;
-}
-.T {
-    border-radius: 20px;
-}
+    height: 60vh;
+  }
 
 .more_projects {
     text-decoration: none;
