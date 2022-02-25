@@ -200,7 +200,7 @@ section {
 }
 
 .three, .four, .five, .six{
-    padding: 10vh;
+    padding: 8vh;
     overflow: hidden; /* Hide scrollbars */
 }
 
@@ -292,3 +292,30 @@ section {
 body {
   overflow: hidden; /* Hide scrollbars */
 }
+
+.cert_board {
+  background: #3c3c3c;
+  align-items: center;
+  
+}
+
+.cert_item {
+  background: #3c3c3c;
+  width: 10%;
+  float: left;
+  width: 31.53%;
+  padding: 2vh;
+  padding-right: 3vh;
+  padding-left: 3vh;
+
+  margin: 1vh;
+  margin-bottom: 3vh;
+  margin-top: 2vh;
+  border-radius: 20px;
+}
+
+.cert_board{
+  margin-left: 4vh;
+  margin-top: 3vh;
+}
+
