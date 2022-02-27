@@ -11,24 +11,27 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="nav">
+    <div class="container">
+        <section class="one">
+    <header>
+    <div class="nav-overlay">
+    <div class="nav" id="nav">
         <p class="name">izaan qaiser</p>
         <ul>
-            <li><a href="#">projects</a></li>
-            <li><a href="#">certificates</a></li>
-            <li><a href="#">resume</a></li>
-            <li><a href="#">contact</a></li>
+            <li><a href="#contact">me</a></li>
+            <li><a href="#three">projects</a></li>
+            <li><a href="#certs">certificates</a></li>
+            <li><a href="https://drive.google.com/file/d/1gaGPjsyXvnHVghN2jQwj7n_BD0J_FHQc/view?usp=sharing" target="_blank">resume</a></li>
         </ul>
     </div>
-    <div class="container">
-    <section class="one">
-    <div class="black"><span class="izaan">izaan</span></div>
+</header>
+    <div class="black" id="black"><span class="izaan">izaan</span></div>
     <div class="white"><span class="qaiser">qaiser</span></div>
     </section>
 
-    <div class="navved-up">
-    <section class="two">
-        <div class="ting">
+    <div class="navved-up" id="contact">
+    <section class="two" id="contact">
+        <div class="ting" >
             <div class="ls">
                 <div class="ls-name">izaan</div>
                 <div class="ls-links">
@@ -51,7 +54,7 @@
     </section>
 
 
-    <section class="three">
+    <section class="three" id="three">
         <div class="project_ting">
             <div class="project_words">
             <h1 class="js_projects">javascript projects</h1>
@@ -102,14 +105,14 @@
             </div>
             <div class="project_2">
                 <a href="https://github.com/IzaanQ/ArduinoWeatherBox" target="_blank"><img class="AVNC" src="images/WBBBBB.png" alt=""></a>
-            </div>
+        </div>
             <div class="project_3">
                 <a href="https://github.com/IzaanQ/Arduino---Remote-Light" target="_blank"><img class="T" src="images/ACL.png" alt=""></a>
             </div>
             </div>
         </div>
     </section>
-    <section class="six">
+    <section class="six" id="certs">
         <div class="cert_board">
         <img src="images/cert1.png" alt="" class="cert_item">
         <img src="images/cert1.png" alt="" class="cert_item">
@@ -118,9 +121,18 @@
         <img src="images/cert1.png" alt="" class="cert_item">
         <img src="images/cert1.png" alt="" class="cert_item">
     </div>
-    </section>
+
+    <div class="foot">
+        <div class="words">
+            <p>izaan qaiser | <a href="#nav">back to top</a></p>
+        </div>
     </div>
+
+    </section>
 </div>
+    
+</div>
+
 </body>
 <script src="app.js"></script>
 </html>
