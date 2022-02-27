@@ -201,6 +201,7 @@ section {
 
 .three, .four, .five, .six{
     padding: 8vh;
+    padding-top: 14vh;
     overflow: hidden; /* Hide scrollbars */
 }
 
@@ -319,3 +320,47 @@ body {
   margin-top: 3vh;
 }
 
+.foot{
+  background-color: #3c3c3c;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  height: 70px;
+  margin-top: 88vh;
+  padding-top: 1.5vh;
+}
+
+.six {
+  padding:0;
+  padding-top: 6vh;
+}
+
+.words {
+  font-size: 2vh;
+  margin-right: 5vh;
+  text-align: center;
+}
+
+.foot p a:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.foot p a:visited {
+  color: #fff;
+}
+
+.foot p a:hover {
+  color: blanchedalmond;
+}
+
+.hide {
+  color: #3c3c3c;
+}
+
+.foot p {
+  margin-left: 4%;
+}
