@@ -264,7 +264,7 @@ section {
     margin-top: 5vh;
     height: 78vh;
     width: 150vh;
-    margin-right: 20vh;
+    margin-right: 15vh;
   }
 
   .AVNS, .AVNC, .T{
@@ -382,4 +382,8 @@ body {
 .ting{
   margin-right: 15vh;
   margin-top: 8vh;
+}
+
+.button {
+  height: 35px;
 }
