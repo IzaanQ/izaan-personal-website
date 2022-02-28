@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .black {
@@ -200,10 +201,14 @@ section {
 }
 
 .three, .four, .five, .six{
-    padding: 8vh;
+    /* padding: 8vh;
     padding-top: 14vh;
-    overflow: hidden; /* Hide scrollbars */
+    padding-left: 15vh;
+    overflow: hidden; Hide scrollbars */
+  display: flex;
+  justify-content: space-between;
 }
+
 
 .AVNS, .AVNC, .T {
     border-radius: 20px;
@@ -247,7 +252,6 @@ section {
   }
 
   .three, .four, .five {
-    padding: 0.15%;
     padding-bottom: 7vh;
   }
 
@@ -258,9 +262,9 @@ section {
 
   .project_ting{
     margin-top: 5vh;
-    height: 77vh;
+    height: 78vh;
     width: 150vh;
-
+    margin-right: 15vh;
   }
 
   .AVNS, .AVNC, .T{
@@ -295,16 +299,15 @@ body {
 }
 
 .cert_board {
-  background: #3c3c3c;
+  background: #FFF;
   align-items: center;
-  
 }
 
 .cert_item {
   background: #3c3c3c;
   width: 10%;
   float: left;
-  width: 31.53%;
+  width: 30%;
   padding: 2vh;
   padding-right: 3vh;
   padding-left: 3vh;
@@ -316,8 +319,8 @@ body {
 }
 
 .cert_board{
-  margin-left: 4vh;
-  margin-top: 3vh;
+  margin-top: 8vh;
+  width: 90%;
 }
 
 .foot{
@@ -328,18 +331,15 @@ body {
   width: 100%;
   color: #fff;
   text-align: center;
-  height: 70px;
+  height: 50px;
   margin-top: 88vh;
   padding-top: 1.5vh;
+  position: absolute;
 }
 
-.six {
-  padding:0;
-  padding-top: 6vh;
-}
 
 .words {
-  font-size: 2vh;
+  font-size: 3.5vh;
   margin-right: 5vh;
   text-align: center;
 }
@@ -363,4 +363,22 @@ body {
 
 .foot p {
   margin-left: 4%;
+}
+
+.sideNav {
+  background-color: #3c3c3c;
+  width: 6vh;
+  height: 100vh;
+  margin-left: 0;
+  margin-right: 10vh;
+}
+
+.two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ting{
+  margin-right: 15vh;
+  margin-top: 8vh;
 }
