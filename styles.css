@@ -264,7 +264,7 @@ section {
     margin-top: 5vh;
     height: 78vh;
     width: 150vh;
-    margin-right: 15vh;
+    margin-right: 20vh;
   }
 
   .AVNS, .AVNC, .T{
@@ -376,6 +376,7 @@ body {
 .two {
   display: flex;
   justify-content: space-between;
+  padding-right: 10vh;
 }
 
 .ting{
