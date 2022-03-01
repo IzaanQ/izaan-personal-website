@@ -262,7 +262,16 @@ section {
   .four,
   .five {
     padding-bottom: 7vh;
+    padding-top: 7vh;
   }
+
+  .two {
+    margin-left: 32vh;
+  }
+
+.six {
+  align-items: center;
+}
 
   .rs,
   .ls {
@@ -273,7 +282,7 @@ section {
     margin-top: 5vh;
     height: 78vh;
     width: 150vh;
-    margin-right: 15vh;
+    margin-right: 20vh;
   }
 
   .AVNS,
@@ -283,7 +292,7 @@ section {
     width: 45vh;
   }
   .more_projects {
-    margin-right: 5vh;
+    /* margin-right: 5vh; */
     font-size: 4vh;
     margin-bottom: 10px;
     margin-top: 0px;
@@ -311,6 +320,12 @@ body {
 .cert_board {
   background: #fff;
   align-items: center;
+  margin: auto;
+  padding-left: 14.5vh;
+}
+
+.six{
+  padding-top: 10vh;
 }
 
 .cert_item {
@@ -318,10 +333,6 @@ body {
   width: 10%;
   float: left;
   width: 30%;
-  padding: 2vh;
-  padding-right: 3vh;
-  padding-left: 3vh;
-
   margin: 1vh;
   margin-bottom: 3vh;
   margin-top: 2vh;
@@ -386,6 +397,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding-right: 10vh;
+  padding-top: 3vh;
 }
 
 .ting {
