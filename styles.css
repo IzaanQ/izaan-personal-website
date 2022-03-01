@@ -367,7 +367,7 @@ body {
 
 .sideNav {
   background-color: #3c3c3c;
-  width: 6vh;
+  width: 7vh;
   height: 100vh;
   margin-left: 0;
   margin-right: 10vh;
@@ -386,4 +386,29 @@ body {
 
 .button {
   height: 35px;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+
+#navbar {
+  background-color: #333; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: -50px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+/* Style the navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
 }
