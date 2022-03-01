@@ -8,10 +8,9 @@
 
 .black {
   background-color: #3c3c3c;
-  height: 40vh;
+  height: 50vh;
   width: auto;
   text-align: center;
-  line-height: 650px;
 }
 
 .white {
@@ -22,6 +21,7 @@
 .izaan {
   font-size: 200px;
   color: #fff;
+  margin-top: 10vh;
 }
 
 .qaiser {
@@ -148,60 +148,63 @@ section {
 }
 
 .project_1 {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
 .project_2 {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
 .project_3 {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
 
-.project_holder::after{
-    content: "";
-    clear:both;
-    display: table;
+.project_holder::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
-.project_ting{
-    background: #3c3c3c;
-    text-align: center;
-    width: 150vh;
-    height: 75vh;
-    margin: auto;
-    border-radius: 20px;
-    padding-top: 1vh;
+.project_ting {
+  background: #3c3c3c;
+  text-align: center;
+  width: 150vh;
+  height: 75vh;
+  margin: auto;
+  border-radius: 20px;
+  padding-top: 1vh;
 }
 
-.project_words{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 4vh;
-    padding-right: 4vh;
-    padding-top: 1vh;
-    padding-bottom: 3vh;
-    color: #fff;
-    font-size: 3vh;
+.project_words {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 4vh;
+  padding-right: 4vh;
+  padding-top: 1vh;
+  padding-bottom: 3vh;
+  color: #fff;
+  font-size: 3vh;
 }
 
-.project_words a{
-    margin-top: 12px;
-    padding: 0;
-    text-decoration: none;
+.project_words a {
+  margin-top: 12px;
+  padding: 0;
+  text-decoration: none;
 }
-.project_words a:hover{
-    text-decoration: none;
-    color: blanchedalmond;
+.project_words a:hover {
+  text-decoration: none;
+  color: blanchedalmond;
 }
 
-.three, .four, .five, .six{
-    /* padding: 8vh;
+.three,
+.four,
+.five,
+.six {
+  /* padding: 8vh;
     padding-top: 14vh;
     padding-left: 15vh;
     overflow: hidden; Hide scrollbars */
@@ -209,33 +212,37 @@ section {
   justify-content: space-between;
 }
 
-
-.AVNS, .AVNC, .T {
-    border-radius: 20px;
-    height: 60vh;
-  }
-
-.more_projects {
-    text-decoration: none;
-    color: #fff;
+.AVNS,
+.AVNC,
+.T {
+  border-radius: 20px;
+  height: 60vh;
 }
 
 .more_projects {
-    font-size: 3vh;
+  text-decoration: none;
+  color: #fff;
+}
+
+.more_projects {
+  font-size: 3vh;
 }
 
 @media only screen and (max-width: 1439px) {
-  .black{
-    line-height: 45vh;
+  .black {
+    line-height: 65vh;
   }
 
-  .github, .linkedin, .devpost, .gmail{
+  .github,
+  .linkedin,
+  .devpost,
+  .gmail {
     width: 85px;
     height: auto;
     margin-right: 10px;
   }
 
-  .ls-name{
+  .ls-name {
     margin-bottom: 5px;
   }
 
@@ -243,7 +250,7 @@ section {
     margin-top: 25px;
   }
 
-  .name{
+  .name {
     font-size: 4vh;
   }
 
@@ -251,47 +258,50 @@ section {
     font-size: 3.5vh;
   }
 
-  .three, .four, .five {
+  .three,
+  .four,
+  .five {
     padding-bottom: 7vh;
   }
 
-  .rs, .ls{
+  .rs,
+  .ls {
     margin-top: 70px;
-
   }
 
-  .project_ting{
+  .project_ting {
     margin-top: 5vh;
     height: 78vh;
     width: 150vh;
     margin-right: 15vh;
   }
 
-  .AVNS, .AVNC, .T{
+  .AVNS,
+  .AVNC,
+  .T {
     height: 60vh;
     width: 45vh;
   }
-  .more_projects{
+  .more_projects {
     margin-right: 5vh;
     font-size: 4vh;
     margin-bottom: 10px;
     margin-top: 0px;
   }
 
-  .project_words{
+  .project_words {
     margin-left: 2vh;
     padding-bottom: 15px;
     padding-top: 15px;
   }
 
-  .js_projects{
+  .js_projects {
     margin-top: 12px;
   }
 
   body {
     overflow: hidden; /* Hide scrollbars */
   }
-
 }
 
 body {
@@ -299,7 +309,7 @@ body {
 }
 
 .cert_board {
-  background: #FFF;
+  background: #fff;
   align-items: center;
 }
 
@@ -318,12 +328,12 @@ body {
   border-radius: 20px;
 }
 
-.cert_board{
+.cert_board {
   margin-top: 8vh;
   width: 90%;
 }
 
-.foot{
+.foot {
   background-color: #3c3c3c;
   left: 0;
   right: 0;
@@ -336,7 +346,6 @@ body {
   padding-top: 1.5vh;
   position: absolute;
 }
-
 
 .words {
   font-size: 3.5vh;
@@ -379,7 +388,7 @@ body {
   padding-right: 10vh;
 }
 
-.ting{
+.ting {
   margin-right: 15vh;
   margin-top: 8vh;
 }
@@ -391,11 +400,13 @@ body {
 }
 
 #navbar {
-  background-color: #333; /* Black background color */
+  background-color: #3c3c3c; /* Black background color */
   position: fixed; /* Make it stick/fixed */
   top: -50px; /* Hide the navbar 50 px outside of the top view */
   width: 100%; /* Full width */
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  height: 17vh;
+  padding-top: 7.7vh;
 }
 
 /* Style the navbar links */
@@ -404,11 +415,11 @@ body {
   display: block;
   color: white;
   text-align: center;
-  padding: 15px;
+  margin-left: 25px;
   text-decoration: none;
+  font-size: 3.5vh;
 }
 
 #navbar a:hover {
-  background-color: #ddd;
-  color: black;
+  color: blanchedalmond;
 }
