@@ -249,6 +249,11 @@ section {
   .foot {
     padding-bottom: 6vh;
   }
+  
+  .ting {
+    margin-left: 20vh;
+  }
+  
 }
 
 @media only screen and (max-width: 1439px) {
@@ -419,7 +424,6 @@ body {
 .two {
   display: flex;
   justify-content: space-between;
-  padding-right: 10vh;
   padding-top: 3vh;
 }
 
