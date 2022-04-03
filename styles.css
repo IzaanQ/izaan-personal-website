@@ -254,91 +254,12 @@ section {
     margin-left: 20vh;
   }
   
-}
-
-@media only screen and (max-width: 1439px) {
-  .black {
-    line-height: 65vh;
-  }
-
-  .github,
-  .linkedin,
-  .devpost,
-  .gmail {
-    width: 85px;
-    height: auto;
-    margin-right: 10px;
-  }
-
-  .ls-name {
-    margin-bottom: 5px;
-  }
-
-  .ls-titles {
-    margin-top: 25px;
-  }
-
-  .name {
-    font-size: 4vh;
-  }
-
-  .nav li a:link {
-    font-size: 3.5vh;
-  }
-
-  .three,
-  .four,
-  .five {
-    padding-bottom: 7vh;
-    padding-top: 7vh;
-  }
-
-  .two {
-    margin-left: 32vh;
-  }
-
-  .six {
-    align-items: center;
-  }
-
-  .rs,
-  .ls {
-    margin-top: 70px;
-  }
-
   .project_ting {
-    margin-top: 5vh;
-    height: 78vh;
-    width: 150vh;
-    margin-right: 20vh;
-  }
-
-  .AVNS,
-  .AVNC,
-  .T {
-    height: 60vh;
-    width: 45vh;
-  }
-  .more_projects {
-    /* margin-right: 5vh; */
-    font-size: 4vh;
-    margin-bottom: 10px;
-    margin-top: 0px;
-  }
-
-  .project_words {
-    margin-left: 2vh;
-    padding-bottom: 15px;
-    padding-top: 15px;
-  }
-
-  .js_projects {
-    margin-top: 12px;
+    margin-top: 16vh;
   }
 
   body {
-    overflow: hidden; /* Hide scrollbars */
-  }
+  overflow: hidden; /* Hide scrollbars */
 }
 
 body {
@@ -347,13 +268,9 @@ body {
 
 .cert_board {
   background: #fff;
-  align-items: center;
   margin: auto;
-  padding-left: 14.5vh;
-}
-
-.six {
-  padding-top: 10vh;
+  padding-top: 15vh;
+  margin-left: 13vh;
 }
 
 .cert_item {
@@ -462,3 +379,219 @@ body {
 #navbar a:hover {
   color: blanchedalmond;
 }
+
+
+}
+
+@media only screen and (max-width: 1439px) {
+  .black {
+    line-height: 65vh;
+  }
+
+  .github,
+  .linkedin,
+  .devpost,
+  .gmail {
+    width: 85px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .ls-name {
+    margin-bottom: 5px;
+  }
+
+  .ls-titles {
+    margin-top: 25px;
+  }
+
+  .name {
+    font-size: 4vh;
+  }
+
+  .nav li a:link {
+    font-size: 3.5vh;
+  }
+
+  .three,
+  .four,
+  .five {
+    padding-bottom: 7vh;
+    padding-top: 7vh;
+  }
+
+  .two {
+    margin-left: 32vh;
+  }
+
+  .six {
+    align-items: center;
+  }
+
+  .rs,
+  .ls {
+    margin-top: 70px;
+  }
+
+  .project_ting {
+    margin-top: 5vh;
+    height: 78vh;
+    width: 150vh;
+    margin-right: 20vh;
+  }
+
+  .AVNS,
+  .AVNC,
+  .T {
+    height: 60vh;
+    width: 45vh;
+  }
+  .more_projects {
+    /* margin-right: 5vh; */
+    font-size: 4vh;
+    margin-bottom: 10px;
+    margin-top: 0px;
+  }
+
+  .project_words {
+    margin-left: 2vh;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+
+  .js_projects {
+    margin-top: 12px;
+  }
+
+  body {
+    overflow: hidden; /* Hide scrollbars */
+  }
+
+  .six{
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+  overflow: hidden; /* Hide scrollbars */
+}
+
+.cert_board {
+  background: #fff;
+  align-items: center;
+  margin: auto;
+  padding-left: 14.5vh;
+}
+
+
+
+.cert_item {
+  background: #3c3c3c;
+  width: 10%;
+  float: left;
+  width: 30%;
+  margin: 1vh;
+  margin-bottom: 3vh;
+  margin-top: 2vh;
+  border-radius: 20px;
+}
+
+.cert_board {
+  margin-top: 8vh;
+  width: 90%;
+}
+
+.foot {
+  background-color: #3c3c3c;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  height: 50px;
+  margin-top: 88vh;
+  padding-top: 1.5vh;
+  position: absolute;
+}
+
+.words {
+  font-size: 3.5vh;
+  margin-right: 5vh;
+  text-align: center;
+}
+
+.foot p a:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.foot p a:visited {
+  color: #fff;
+}
+
+.foot p a:hover {
+  color: blanchedalmond;
+}
+
+.hide {
+  color: #3c3c3c;
+}
+
+.foot p {
+  margin-left: 4%;
+}
+
+.sideNav {
+  background-color: #3c3c3c;
+  width: 7vh;
+  height: 100vh;
+  margin-left: 0;
+  margin-right: 10vh;
+}
+
+.two {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3vh;
+}
+
+.ting {
+  margin-right: 15vh;
+  margin-top: 8vh;
+}
+
+.button {
+  height: 35px;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+
+#navbar {
+  background-color: #3c3c3c; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: -50px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  height: 17vh;
+  padding-top: 7.7vh;
+}
+
+/* Style the navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  margin-left: 25px;
+  text-decoration: none;
+  font-size: 3.5vh;
+}
+
+#navbar a:hover {
+  color: blanchedalmond;
+}
+
+
+}
+
