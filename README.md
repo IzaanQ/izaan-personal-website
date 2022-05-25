@@ -17,3 +17,4 @@ To Do list:
 - Update Animations
 - Dark Mode
 - Gallery
+- Move to personal domain (izaan.com)
