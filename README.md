@@ -6,3 +6,14 @@ This project will be used to show my previous accolades and accomplishments. It 
 I plan on using this website to display my work.
 
 This website is lacking. 2/10.
+
+Targeted Completion date: June 15th, 2022:
+
+To Do list:
+
+- Responsive design
+- Certification board
+- Projects
+- Update Animations
+- Dark Mode
+- Gallery
