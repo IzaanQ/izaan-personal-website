@@ -595,3 +595,10 @@ body {
 
 }
 
+@media only screen and (max-width: 361px ) {
+  .nav p {
+    font-size: 25px;
+    margin: 0%;
+    padding: 0%;
+  }
+}
