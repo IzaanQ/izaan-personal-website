@@ -18,3 +18,4 @@ To Do list:
 - Dark Mode
 - Gallery
 - Move to personal domain (izaan.com)
+- this website is a lost cause
