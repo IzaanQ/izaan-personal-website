@@ -5,7 +5,6 @@ This project will be used to show my previous accolades and accomplishments. It 
 
 I plan on using this website to display my work.
 
-This website is lacking.
 
 Targeted Completion date: June 15th, 2022:
 
