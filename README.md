@@ -17,4 +17,3 @@ To Do list:
 - Dark Mode
 - Gallery
 - Move to personal domain (izaan.com)
-- decent project to keep
